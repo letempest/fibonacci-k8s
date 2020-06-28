@@ -3,9 +3,9 @@ kind: Certificate
 metadata:
   name: k8s-leplus-co-tls
 spec:
-  secretName: k8s-leplus-co
+  secretName: k8s-leplus-co-tls
   issuerRef:
-    name: letsencrypt-prod
+    name: letsencrypt-production
     kind: ClusterIssuer
   commonName: k8s.leplus.co
   dnsNames:
